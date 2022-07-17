@@ -16,5 +16,10 @@ namespace FormuláriosH2
         {
             InitializeComponent();
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("mailto:es.nishimura@gmail.com");
+        }
     }
 }
